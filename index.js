@@ -1,7 +1,7 @@
 
 import Flex, { FlexAutoSize } from './Flex';
 
-export {
+module.exports = {
     Flex,
     FlexAutoSize,
 }
