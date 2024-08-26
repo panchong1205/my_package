@@ -1,9 +1,9 @@
 
 import Flex, { FlexAutoSize } from './Flex';
-import ExportExcel from './CustomExportExcel'
+import CustomExportExcel from './CustomExportExcel'
 
 export {
     Flex,
     FlexAutoSize,
-    ExportExcel,
+    CustomExportExcel,
 }
