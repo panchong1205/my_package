@@ -1,9 +1,9 @@
 
 import Flex, { FlexAutoSize } from './Flex';
-import downloadFileBlob from './utils/downloadFileBlob'
+import ExportExcel from './CustomExportExcel'
 
 export {
     Flex,
     FlexAutoSize,
-    downloadFileBlob,
+    ExportExcel,
 }
