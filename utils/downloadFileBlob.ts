@@ -1,13 +1,13 @@
 
 interface downloadFileBlobProps{
-    fileName: string;
+    fileName?: string;
     fileType: 'excel' | 'word',
     blob: any;
     onDownloadSuccess?: () => void;
 }
 const downloadFileBlob = (
     {
-        fileName = '',
+        fileName = '下载文件',
         fileType = 'excel',
         blob = null,
         onDownloadSuccess = () => {},
